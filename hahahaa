@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav a {
+            margin: 10px;
+            padding: 10px 15px;
+            background-color: darkviolet;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: purple;
+        }
+        h1 { color: darkviolet; }
+        img { margin: 10px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<h1>Welcome to My Website</h1>
+<p>This is the homepage of my HTML-only website.</p>
+
+<!-- Example inline image -->
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA
+AAAFCAYAAACNbyblAAAAHElEQVQI12P4
+//8/w38GIAXDIBKE0DHxgljNBAAO
+9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Placeholder" width="200">
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Services</title>
+    <style>
+        body { font-family: Arial; text-align:center; background-color:#e0f7fa; margin:0; padding:0; }
+        nav a { margin:10px; padding:10px 15px; background-color: darkviolet; color:white; text-decoration:none; border-radius:5px;}
+        nav a:hover { background-color: purple; }
+        h1 { color: darkviolet; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<h1>Our Services</h1>
+<p>Here are the services we offer.</p>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <style>
+        body { font-family: Arial; text-align: center; background-color: #fdf6e3; margin:0; padding:0;}
+        nav a { margin: 10px; padding: 10px 15px; background-color: darkviolet; color: white; text-decoration: none; border-radius:5px;}
+        nav a:hover { background-color: purple; }
+        h1 { color: darkviolet; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<h1>About Us</h1>
+<p>This is the about page. Here you can write something about yourself or your project.</p>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <style>
+        body { font-family: Arial; text-align:center; background-color:#e8f5e9; margin:0; padding:0;}
+        nav a { margin:10px; padding:10px 15px; background-color: darkviolet; color:white; text-decoration:none; border-radius:5px;}
+        nav a:hover { background-color: purple; }
+        h1 { color: darkviolet; }
+        input, textarea { margin:5px; padding:5px; width: 200px; }
+        button { padding:5px 10px; background-color: darkviolet; color:white; border:none; border-radius:5px;}
+        button:hover { background-color: purple; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<h1>Contact Us</h1>
+
+<form>
+    <input type="text" placeholder="Your Name"><br>
+    <input type="email" placeholder="Your Email"><br>
+    <textarea placeholder="Your Message"></textarea><br>
+    <button type="submit">Send</button>
+</form>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+    <style>
+        body { font-family: Arial; text-align:center; background-color:#fff3e0; margin:0; padding:0;}
+        nav a { margin:10px; padding:10px 15px; background-color: darkviolet; color:white; text-decoration:none; border-radius:5px;}
+        nav a:hover { background-color: purple; }
+        h1 { color: darkviolet; }
+        img { margin:10px; border-radius:10px; width:150px; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<h1>Gallery</h1>
+
+<!-- Multiple inline images -->
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA
+AAAFCAYAAACNbyblAAAAHElEQVQI12P4
+//8/w38GIAXDIBKE0DHxgljNBAAO
+9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Pic1">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA
+AAAFCAYAAACNbyblAAAAHElEQVQI12P4
+//8/w38GIAXDIBKE0DHxgljNBAAO
+9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Pic2">
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+
+<style>
+  body {background-image: url(pp.jpg);
+    background-size: cover;
+  background-position: center;
+  text-align: center;}
+</style>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Home.html">
+</head>
+<body>
+
+  <ul>
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Service</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+
+<style>
+  body {  font-family: Arial, sans-serif;
+                    text-align: center;
+                    background-image: url(hehehe.jpg );}
+</style>
+
+<section>
+  <h1>Contact Us</h1>
+  <form 
+  
+  onsubmit="return validateForm()">
+
+      
+    <input type="text" id="name" placeholder="Your Name">
+
+    <input type="email" id="email" placeholder="Your Email">
+
+    <textarea id="message" placeholder="Your Message"></textarea>
+
+    <button type="submit">Send</button>
+  
+  
+  </form>
+
+</section>
+
+<script>
+
+
+function validateForm()
+
+{
+
+  let name=document.getElementById("name").value;
+
+  let email=document.getElementById("email").value;
+
+  if(name==="" || email===""){
+    alert("Please fill in all required fields!");
+    return false;
+  }
+
+  alert("Form submitted successfully!");
+  
+    return true;
+}
+</script>
+
+
+</body>
+</html>
